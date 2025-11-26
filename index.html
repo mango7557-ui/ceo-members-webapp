@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#2563eb">
+    <title>CEO members - 프랜차이즈 플랫폼</title>
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 헤더 -->
+    <header class="header">
+        <div class="header-content">
+            <div class="header-logo">
+                <span class="logo-ceo">CEO</span>
+                <span class="logo-franchise">프렌차이즈</span>
+            </div>
+            <div class="header-members">members</div>
+            <button class="header-settings">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M12 1v6m0 6v6m0-6h6m-6 0H6"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- 메인 콘텐츠 -->
+    <main class="main-content">
+        <!-- 메인 배너 -->
+        <div class="main-banner">
+            <div class="banner-content">
+                <div class="banner-text">
+                    <span class="banner-word">CONNECT</span>
+                    <span class="banner-word">LEVATE</span>
+                    <span class="banner-word">PEN UP</span>
+                </div>
+                <div class="banner-korean">연결하라, 인내하라, 쓸어라</div>
+            </div>
+        </div>
+
+        <!-- AI 프랜차이즈 Q&A -->
+        <section class="ai-section">
+            <div class="ai-header">
+                <div class="ai-icon">AI</div>
+                <h2 class="ai-title">프랜차이즈 Q&A</h2>
+            </div>
+            
+            <div class="ai-question">
+                <p>AI에게 무엇이든 물어보세요!</p>
+                <button class="ai-question-btn">더보기 →</button>
+            </div>
+
+            <!-- AI 카드 슬라이더 -->
+            <div class="swiper ai-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="ai-card" style="background: linear-gradient(135deg, #1e3a8a 0%, #1e293b 100%);">
+                            <h3>AI 프랜차이즈 카드</h3>
+                            <p>다양한 AI 관련 정보</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="ai-card" style="background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);">
+                            <h3>AI 컨설팅 서비스</h3>
+                            <p>전문가 상담</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="ai-card" style="background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);">
+                            <h3>AI 마케팅</h3>
+                            <p>맞춤형 마케팅</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 지도에서 업체 찾기 -->
+            <button class="map-button">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>지도에서 업체 찾기</span>
+            </button>
+
+            <!-- 검색바 -->
+            <div class="search-bar">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <input type="text" placeholder="업체명, 이름, #해시태그 검색">
+            </div>
+        </section>
+
+        <!-- 신규 등록 업체 -->
+        <section class="section">
+            <div class="section-banner section-banner-blue">
+                <h2 class="section-banner-title">CEO members 신규 등록 업체</h2>
+            </div>
+            <div class="section-header">
+                <h3 class="section-title">신규 등록 업체를 소개합니다!</h3>
+                <a href="#" class="section-more">더보기 →</a>
+            </div>
+            <div class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #dc2626;">
+                                <span>음식점 프랜차이즈</span>
+                            </div>
+                            <div class="slider-card-content">
+                                <h3 class="slider-card-title">음식점 프랜차이즈</h3>
+                                <p class="slider-card-description">맛있는 요리</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #7c3aed;">
+                                <span>고기 전문점</span>
+                            </div>
+                            <div class="slider-card-content">
+                                <h3 class="slider-card-title">고기 전문점</h3>
+                                <p class="slider-card-description">Flex 고기 요리</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #f59e0b;">
+                                <span>피자 전문점</span>
+                            </div>
+                            <div class="slider-card-content">
+                                <h3 class="slider-card-title">피자 전문점</h3>
+                                <p class="slider-card-description">다양한 피자</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 프랜차이즈 개별 정보 -->
+        <section class="section">
+            <div class="section-banner section-banner-navy">
+                <h2 class="section-banner-title">CEO members 프랜차이즈 개별 정보</h2>
+            </div>
+            <div class="section-header">
+                <h3 class="section-title">프랜차이즈 개별 정보를 소개합니다!</h3>
+                <a href="#" class="section-more">더보기 →</a>
+            </div>
+            <div class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #2563eb;">
+                                <span>프랜차이즈 창업</span>
+                            </div>
+                            <div class="slider-card-content">
+                                <h3 class="slider-card-title">프랜차이즈 창업</h3>
+                                <p class="slider-card-description">성공적인 창업</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #dc2626;">
+                                <span>고기 Flex</span>
+                            </div>
+                            <div class="slider-card-content">
+                                <h3 class="slider-card-title">고기 Flex</h3>
+                                <p class="slider-card-description">프리미엄 고기</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #f59e0b;">
+                                <span>식이도 방법</span>
+                            </div>
+                            <div class="slider-card-content">
+                                <h3 class="slider-card-title">식이도 방법</h3>
+                                <p class="slider-card-description">건강한 식단</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 플랫폼 피드 -->
+        <section class="section">
+            <div class="section-banner section-banner-blue">
+                <h2 class="section-banner-title">CEO members 플랫폼 피드!!</h2>
+            </div>
+            <div class="section-header">
+                <h3 class="section-title">CEO members와 함께하는<br>플랫폼 피드서</h3>
+                <a href="#" class="section-more">더보기 →</a>
+            </div>
+            <div class="platform-feed-card">
+                <div class="feed-badge">NEW</div>
+                <h4>심리안 전문상을 갖춘<br>멤버 서비스</h4>
+                <ul class="feed-list">
+                    <li>기관·수출·가맹점 진행 분야</li>
+                    <li>반응형 서비스</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 후원 협찬 -->
+        <section class="section">
+            <div class="section-banner section-banner-blue">
+                <h2 class="section-banner-title">CEO members 후원 협찬</h2>
+            </div>
+            <div class="section-header">
+                <h3 class="section-title">CEO members와 함께하는<br>후원 협찬사를 소개합니다.</h3>
+                <a href="#" class="section-more">더보기 →</a>
+            </div>
+            <div class="sponsor-card">
+                <div class="sponsor-logo">CEO<br>members</div>
+                <div class="sponsor-info">
+                    <p>명품 KFCEO / 연세대 FCEO</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 협사/교육 -->
+        <section class="section">
+            <div class="section-banner section-banner-navy">
+                <h2 class="section-banner-title">CEO members 협사/교육/오업/업정</h2>
+            </div>
+            <div class="section-header">
+                <h3 class="section-title">협사/교육 정보</h3>
+                <a href="#" class="section-more">더보기 →</a>
+            </div>
+            <div class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #1e3a8a;">
+                                <span>2025 프랜차이즈 승인의 밤</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #2563eb;">
+                                <span>YFCEO 46기 수료식</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 뉴스 레터 -->
+        <section class="section">
+            <div class="section-banner section-banner-blue">
+                <h2 class="section-banner-title">CEO members 뉴스 레터!</h2>
+            </div>
+            <div class="section-header">
+                <h3 class="section-title">프랜차이즈 뉴스 레터</h3>
+                <a href="#" class="section-more">더보기 →</a>
+            </div>
+            <div class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #dc2626;">
+                                <span>프랜차이즈 뉴스</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #f59e0b;">
+                                <span>치킨 브랜드</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #7c3aed;">
+                                <span>피자 브랜드</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Story -->
+        <section class="section">
+            <div class="section-banner section-banner-navy">
+                <h2 class="section-banner-title">CEO members My Story</h2>
+            </div>
+            
+            <div class="section-header">
+                <h3 class="section-title">📰 CEO members My News</h3>
+                <a href="#" class="section-more">더보기 →</a>
+            </div>
+            <div class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #2563eb;">
+                                <span>글쪽운영</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #1e3a8a;">
+                                <span>YFCEO</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #dc2626;">
+                                <span>KFA 프랜차이즈</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Story -->
+        <section class="section">
+            <div class="section-header">
+                <h3 class="section-title">📷 PHOTO My Story</h3>
+                <a href="#" class="section-more">더보기 →</a>
+            </div>
+            <div class="swiper photo-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="photo-card" style="background-color: #f59e0b;">
+                            <span>일몰</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="photo-card" style="background-color: #dc2626;">
+                            <span>음식</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="photo-card" style="background-color: #10b981;">
+                            <span>풍경</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- YouTube Story -->
+        <section class="section">
+            <div class="section-header">
+                <h3 class="section-title">📺 YouTube My Story</h3>
+                <a href="#" class="section-more">더보기 →</a>
+            </div>
+            <div class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #dc2626;">
+                                <span>2025년 대가기업대상</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #2563eb;">
+                                <span>IFS 프랜차이즈</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 전문가 ZONE -->
+        <section class="section">
+            <div class="section-banner section-banner-blue">
+                <h2 class="section-banner-title">CEO members 전문가 ZONE</h2>
+            </div>
+            <div class="section-header">
+                <h3 class="section-title">CEO members 전문가 ZONE</h3>
+                <a href="#" class="section-more">더보기 →</a>
+            </div>
+            <div class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #1e3a8a;">
+                                <span>REAL MKT</span>
+                            </div>
+                            <div class="slider-card-content">
+                                <h3 class="slider-card-title">REAL MKT</h3>
+                                <p class="slider-card-description">현실을 바꾸는 진짜 마케팅</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #6b7280;">
+                                <span>오르내 변호사</span>
+                            </div>
+                            <div class="slider-card-content">
+                                <h3 class="slider-card-title">오르내 변호사</h3>
+                                <p class="slider-card-description">법률 자문</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #dc2626;">
+                                <span>프랜차이즈 컨설팅</span>
+                            </div>
+                            <div class="slider-card-content">
+                                <h3 class="slider-card-title">프랜차이즈 컨설팅</h3>
+                                <p class="slider-card-description">전문가 상담</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 소개합니다 -->
+        <section class="section">
+            <div class="section-banner section-banner-blue">
+                <h2 class="section-banner-title">CEO members 소개합니다!</h2>
+            </div>
+            
+            <div class="section-header">
+                <h3 class="section-title">어플리케이션 업체 소개합니다!</h3>
+                <a href="#" class="section-more">더보기 →</a>
+            </div>
+            <div class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #dc2626;">
+                                <span>식자재 대동령</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #1e3a8a;">
+                                <span>CREATIVE ISLAND</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #fbbf24;">
+                                <span>Lady Honor</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 업체 정보 -->
+        <section class="section">
+            <div class="section-banner section-banner-navy">
+                <h2 class="section-banner-title">CEO members 업체 정보</h2>
+            </div>
+            
+            <div class="section-header">
+                <h3 class="section-title">CEO members 어플리케이션 정보</h3>
+                <a href="#" class="section-more">더보기 →</a>
+            </div>
+            <div class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #dc2626;">
+                                <span>하이로 보드게임카페</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #1e3a8a;">
+                                <span>당일배송 진짜 마케팅</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="slider-card-placeholder" style="background-color: #f59e0b;">
+                                <span>민준커피</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SNS 섹션 -->
+        <section class="sns-section">
+            <h3 class="sns-title">CEO members와 함께 하세요!</h3>
+            
+            <div class="sns-icons">
+                <button class="sns-icon-btn" style="background-color: #03C75A;" aria-label="Blog">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                        <path d="M13 7h-2v6h2V7zm0 8h-2v2h2v-2z"/>
+                    </svg>
+                </button>
+                <button class="sns-icon-btn" style="background-color: #000000;" aria-label="Threads">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14c-2.67 0-5.03-1.42-6.32-3.56.04-1.99 4-3.08 6.32-3.08s6.28 1.09 6.32 3.08C17.03 17.58 14.67 19 12 19z"/>
+                    </svg>
+                </button>
+                <button class="sns-icon-btn" style="background-color: #FF0000;" aria-label="YouTube">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                    </svg>
+                </button>
+                <button class="sns-icon-btn" style="background-color: #E4405F;" aria-label="Instagram">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </button>
+            </div>
+
+            <button class="kakao-button">
+                💬 카카오톡 채팅 상담 (크릭센터!)
+            </button>
+        </section>
+    </main>
+
+    <!-- 하단 네비게이션 -->
+    <nav class="bottom-nav">
+        <div class="bottom-nav-content">
+            <button class="nav-item active" data-tab="home">
+                <svg class="nav-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+                <span class="nav-label">홈</span>
+            </button>
+            <button class="nav-item" data-tab="search">
+                <svg class="nav-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <span class="nav-label">남색</span>
+            </button>
+            <button class="nav-item" data-tab="business">
+                <svg class="nav-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <span class="nav-label">업체검색</span>
+            </button>
+            <button class="nav-item" data-tab="favorites">
+                <svg class="nav-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                <span class="nav-label">즐겨찾기</span>
+            </button>
+            <button class="nav-item" data-tab="stats">
+                <svg class="nav-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                    <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+                </svg>
+                <span class="nav-label">판매실적</span>
+            </button>
+            <button class="nav-item" data-tab="profile">
+                <svg class="nav-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                <span class="nav-label">내 정보</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
